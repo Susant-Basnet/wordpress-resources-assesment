@@ -4,7 +4,6 @@
  * Description: Adds a "Resources" custom post type and a shortcode [latest_resources] to display latest resources in a responsive grid. Human-written, simple, and easy to extend.
  * Version: 1.0.0
  * Author: Susant Basnet
- * Author URI: https://thanka.digital
  * Text Domain: resources-plugin
  *
  * Notes:
