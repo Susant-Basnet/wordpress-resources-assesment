@@ -1,29 +1,48 @@
-# Latest Resources
+# Resources
 
-This is a small custom plugin built for a WordPress Developer assessment.  
-It registers a **Resources** custom post type and provides a shortcode `[latest_resources limit="5"]` to show the latest resources in a grid layout.
+A small, no-nonsense WordPress plugin (built for an assessment) that registers a **Resources** custom post type and provides a `[latest_resources]` shortcode to display latest items in a responsive grid.
 
----
-
-## 🧩 What it does
-- Adds a **Resources** section in the WordPress admin.
-- Supports **Title**, **Featured Image**, **Excerpt**, and **Content**.
-- Shortcode: `[latest_resources limit="5"]`
-- Displays a responsive grid of the latest resources.
+This is intentionally lightweight and easy to extend.
 
 ---
 
-## ⚙️ How to Install
-1. Download the ZIP or clone this repo.
-2. Upload the `latest-resources` folder to your `wp-content/plugins/` directory.
-3. Activate the plugin from **Plugins → Installed Plugins**.
-4. You’ll now see **Resources** in your WordPress sidebar.
+## Features
+
+- Custom Post Type: **Resources**
+- Supports Title, Content, Excerpt (short description), and Featured Image
+- Shortcode: `[latest_resources limit="5"]` (change `limit` to show more/less)
+- CSS Grid based, responsive layout
+- Enqueues styles properly and escapes all output
 
 ---
 
-## 💡 How to Use
-1. Go to **Resources → Add New**.
-2. Add title, short description, and a featured image.
-3. On any page or post, use the shortcode:
-   ```plaintext
+## Installation
+
+1. Upload the `Resources` folder to `/wp-content/plugins/`
+2. Activate the plugin from the **Plugins** screen in WordPress
+3. Add resources via **Resources → Add New**
+4. Use the shortcode on any page or post:
+   ```
    [latest_resources limit="5"]
+   ```
+
+---
+
+## Usage Notes
+
+- The plugin is intentionally simple: you can add custom fields (PDF, link, categories) easily.
+- The stylesheet is minimal — feel free to override in your theme or add a settings screen to toggle styles.
+
+---
+
+## Author
+
+**Susant Basnet**  
+WordPress Developer – Thanka Digital Pvt. Ltd.  
+https://thanka.digital
+
+--- 
+## Changelog
+
+### 1.0.0
+- Initial release: CPT + shortcode + basic styling
