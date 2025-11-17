@@ -38,8 +38,6 @@ This is intentionally lightweight and easy to extend.
 ## Author
 
 **Susant Basnet**  
-WordPress Developer – Thanka Digital Pvt. Ltd.  
-https://thanka.digital
 
 --- 
 ## Changelog
